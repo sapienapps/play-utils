@@ -1,12 +1,12 @@
-name := "sapienapps"
+name := "play-utils"
 
-organization := "com.sapiendevices"
+organization := "com.sapienapps"
 
 version := "1.0.0"
 
 scalaVersion := "2.11.1"
 
-//resolvers += "Typesafe Maven Repository" at "http://repo.typesafe.com/typesafe/maven-releases/"
+resolvers += "Typesafe Maven Repository" at "http://repo.typesafe.com/typesafe/maven-releases/"
 
 libraryDependencies ++= Seq(
   "com.typesafe.play" %% "play" % "2.3.0",
