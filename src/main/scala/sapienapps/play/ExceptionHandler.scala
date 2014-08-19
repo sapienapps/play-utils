@@ -13,7 +13,7 @@ import play.api.mvc.Results._
  * Time: 9:55 PM
  * To change this template use File | Settings | File Templates.
  */
-case class ExceptionHandler(throwable: Throwable) {
+class ExceptionHandler(throwable: Throwable) {
 
   val UNKNOWN =
     """
